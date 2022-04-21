@@ -18,12 +18,18 @@ font-weight: bold;
     padding: 10px;
 }
 
-.dabao button{
+ button{
 height: 30px;
 width: 80px;
 background: linear-gradient(to right, #fb5283,#ff3527);
 border: none;
 border-radius: 20px;
 color: white;
+box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
 
 }
+
+.modal-body{
+    padding: 20px;
+}
+
