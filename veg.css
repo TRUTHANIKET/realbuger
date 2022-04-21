@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hurricane&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+body{
+    height: 100vh;
+    background-color:#E4E9F7 ; 
+}
+
+
+.box1{
+    background-color: rgb(255, 255, 255);
+    height: 300px;
+    width: 240px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px  rgba(0, 0, 0, 0.1);
+    
+
+}
+
+.img1 img{
+    height: 99px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 23%;
+    left: 50%;
+}
+
+.button1 button{
+    height: 40px ;
+    width: 40px;
+    background: linear-gradient(#ceff1d,#27ffb7);
+    border: none;
+    border-radius: 50px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+   
+    position:absolute;
+    transform: translate(-50%,-50%);
+    top: 80%;
+    left:80%;
+    transition: width 0.5s;
+}
+
+
+.button1 i{
+    color: rgb(0, 0, 0);
+    position: relative;
+    
+}
+
+.price1 h1{
+    position: absolute;
+    transform: translate(-50%,-50%);
+  top: 80%;
+  left: 20%;
+  color: red;
+  text-shadow: 5px 5px 10px rgba(255, 0, 0, 0.2);
+}
+
+
+.text1 {
+    position: absolute;
+    transform: translate(-50%,-50%);
+  top: 50%;
+  left: 50%; 
+}
+
+.info1 {
+    position: absolute;
+    transform: translate(-50%,-50%);
+  top: 60%;
+  left: 50%; 
+}
+
+.info1 p{
+    font-size: 10px;
+    font-weight: bold;
+}
+
+
+.button1:hover button{
+    width: 80px;
+}
+
+.button1 i{
+    display: block;
+}
+
+.button1:hover i{
+    display: none;
+}
+
+.button1 p{
+    display: none;
+    color: rgb(0, 0, 0);
+}
+
+.button1:hover p{
+    display: block;
+}
+/* box 2 */
+.box2{
+    background-color: rgb(255, 255, 255);
+    height: 300px;
+    width: 240px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 110%;
+    left: 50%;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px  rgba(0, 0, 0, 0.1);
+    
+
+}
+
+.img2 img{
+    height: 99px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 23%;
+    left: 50%;
+}
+
+.button2 button{
+    height: 40px ;
+    width: 40px;
+    background: linear-gradient(#ceff1d,#27ffb7);
+    border: none;
+    border-radius: 50px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+   
+    position:absolute;
+    transform: translate(-50%,-50%);
+    top: 80%;
+    left:80%;
+    transition: width 0.5s;
+}
+
+
+.button2 i{
+    color: rgb(0, 0, 0);
+    position: relative;
+    
+}
+
+.price2 h1{
+    position: absolute;
+    transform: translate(-50%,-50%);
+  top: 80%;
+  left: 20%;
+  color: red;
+  text-shadow: 5px 5px 10px rgba(255, 0, 0, 0.2);
+}
+
+
+.text2 {
+    position: absolute;
+    transform: translate(-50%,-50%);
+  top: 50%;
+  left: 50%; 
+}
+
+.info2 {
+    position: absolute;
+    transform: translate(-50%,-50%);
+  top: 60%;
+  left: 50%; 
+}
+
+.info2 p{
+    font-size: 10px;
+    font-weight: bold;
+}
+
+
+.button2:hover button{
+    width: 80px;
+}
+
+.button2 i{
+    display: block;
+}
+
+.button2:hover i{
+    display: none;
+}
+
+.button2 p{
+    display: none;
+    color: rgb(0, 0, 0);
+}
+
+.button2:hover p{
+    display: block;
+}
+
+/* box 3 */
+
+.box3{
+    background-color: rgb(255, 255, 255);
+    height: 300px;
+    width: 240px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 170%;
+    left: 50%;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px  rgba(0, 0, 0, 0.1);
+    
+
+}
+
+.img3 img{
+    height: 99px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 23%;
+    left: 50%;
+}
+
+.button3 button{
+    height: 40px ;
+    width: 40px;
+    background: linear-gradient(#ceff1d,#27ffb7);
+    border: none;
+    border-radius: 50px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+   
+    position:absolute;
+    transform: translate(-50%,-50%);
+    top: 80%;
+    left:80%;
+    transition: width 0.5s;
+}
+
+
+.button3 i{
+    color: rgb(0, 0, 0);
+    position: relative;
+    
+}
+
+.price3 h1{
+    position: absolute;
+    transform: translate(-50%,-50%);
+  top: 80%;
+  left: 20%;
+  color: red;
+  text-shadow: 5px 5px 10px rgba(255, 0, 0, 0.2);
+}
+
+
+.text3 {
+    position: absolute;
+    transform: translate(-50%,-50%);
+  top: 50%;
+  left: 50%; 
+}
+
+.info3 {
+    position: absolute;
+    transform: translate(-50%,-50%);
+  top: 60%;
+  left: 50%; 
+}
+
+.info3 p{
+    font-size: 10px;
+    font-weight: bold;
+}
+
+
+.button3:hover button{
+    width: 80px;
+}
+
+.button3 i{
+    display: block;
+}
+
+.button3:hover i{
+    display: none;
+}
+
+.button3 p{
+    display: none;
+    color: rgb(0, 0, 0);
+}
+
+.button3:hover p{
+    display: block;
+}
+
+
+.end{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 220%;
+    left: 50%;
+}
+
