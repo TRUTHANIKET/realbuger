@@ -9,17 +9,21 @@
 </head>
 <body>
     <center>
-        <div class="placement">
-          <form name="input" method="POST" data-netlify="true">
-            <label>Your Name: <input type="text" name="name" /></label>
-          </p><br>
-          <label>Your Email: <input type="email" name="email" /></label<br>
-          <label>Address: <textarea name="message"></textarea></label>
-        </p>
-     
-        <br> <br> <br>
-        <div class="dabao">
-      <button id="send" type="submit" onclick="myfunc()">SUBMIT</button></div></div>
+      <div class="modal-body">
+      
+        <form name="movie" method="POST" data-netlify="true">
+          <div class="mb-3">
+            <label for="movie name" class="col-form-label">Name:</label>
+            <input type="text" name="movie" class="form-control" id="movie name">
+          </div>
+          <div class="mb-3">
+            <label for="email" class="col-form-label">Email:</label>
+            <input type="email" name="email" class="form-control" id="email">
+          </div>
+        
+           <button  type="submit" class="btn btn-primary">Send Request</button>
+        </form>
+    </div>
   
     </center>
 </body>
